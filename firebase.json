@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "./venv/events.py",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
